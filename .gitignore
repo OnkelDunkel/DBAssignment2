@@ -1,4 +1,6 @@
-trainingandtestdata.zip
-trainingandtestdata.zip.part
-/trainingandtestdata
 .directory
+.vscode
+*.csv
+*.zip
+*.zip.part
+/trainingandtestdata
