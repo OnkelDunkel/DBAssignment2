@@ -1,0 +1,3 @@
+ 
+#Import into db
+mongoimport -d twitter_db -c tweets --type csv --file testdata.manual.2009.06.14.csv --headerline
