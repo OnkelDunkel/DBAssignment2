@@ -1,9 +1,5 @@
 import requests, zipfile, io, pprint, pymongo, csv, re
 
-dowload_url = "http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip"
-file_name = "testdata.manual.2009.06.14.csv"
-
-
 myclient = pymongo.MongoClient("mongodb://127.0.0.1:27017/")
 db = myclient["twitter_db"]
 tweets = db["tweets"]
